@@ -1,6 +1,6 @@
 # retention-analysis
 
-## Project: Predicting Online booking platform's customer retention for improving marketing communication
+## Predicting Online booking platform's customer retention for improving marketing communication
 
 This project was completed as a part of the [Statistical Data Analysis for Business and Management](https://github.com/tzuhsuancheng/Statistical-Data-Analysis-for-Business-and-Management) from NTU.
 
