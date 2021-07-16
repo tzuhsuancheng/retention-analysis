@@ -8,7 +8,6 @@ In this project, we collaborate with an online B&B booking platform, to work tog
 ![flow_chart](tmp/p1_flow.png)
 
 - [Presentation](https://github.com/tzuhsuancheng/retention-analysis/blob/main/project_slides_group1.pdf)
-- [Report](https://github.com/tzuhsuancheng/retention-analysis/blob/main/project_report_group1.pdf)
 - [EDA and Data Preprocessing](https://rpubs.com/tzu0218/722518)
 - [Feature Selection and Modeling](https://rpubs.com/tzu0218/723070)
  
