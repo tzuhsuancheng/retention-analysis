@@ -1,6 +1,6 @@
 # Customer Retention Analysis of Online Booking Platform
 
-`linear regression` `logistic regression` `R`
+`linear regression` `logistic regression` `glm` `R`
 
 ## Introduction
 
@@ -52,12 +52,12 @@ Use Stepwise Method to select the important features
 Filter New and Old customers by their purchase frequency
   <img src="https://user-images.githubusercontent.com/43491071/132134393-1e141e57-ca06-4577-aeec-f6443fcfb2b8.png" alt="" width="500"/>
 
-
-
 - Use the data of old customers with RFM and other multiple features to build:
+
  (1) Multiple Linear Regression to predict Repurchase Time (Tmed) of new customers
  - We further define RT-Ratio (Recency/Repurchase Time) to better describe the repurchase pattern.
  - Evaluation: R^2 = 0.42
+ 
  (2) GLM model to predict the probability of new customers being alive
  - Use RT-Ratio of 8 as the cutoff value to define the alive status of customers
  - Evaluation: Likelihood Ratio Test (The model is good)
@@ -66,9 +66,9 @@ Filter New and Old customers by their purchase frequency
 - RT Ratio > 8 we will consider as dead customers
 - Target Audience: P > 0.5 and RT Ratio < 3
 - Select the target audience according to marketing budgets:
- - RT Ratio (low to High)
- - Alive rate (High to Low)
- - Consider both
+  - RT Ratio (low to High)
+  - Alive rate (High to Low)
+  - Consider both
  
   <img src="https://user-images.githubusercontent.com/43491071/132136689-11c71e96-65e2-45c8-991e-3743cd30d8da.png" alt="" width="500"/>
  *Note: Data used in the projects (accessed under data directory) is for demonstration purposes only.*
