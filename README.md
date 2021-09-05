@@ -1,12 +1,28 @@
-# retention-analysis
+# Customer Retention Analysis of Online Booking Platform
 
-## Customer Retention Analysis of Online Booking Platform
+`linear regression` `logistic regression` `R`
 
-This project was completed as a part of the [Statistical Data Analysis for Business and Management](https://github.com/tzuhsuancheng/Statistical-Data-Analysis-for-Business-and-Management) from NTU.
+## Introduction
 
-In this project, we collaborate with an online B&B booking platform, to work together on solving their business problem using various statistical analysis methods. One challenge is customer retention, they want to find a better segmentation method for making more effective marketing communication. Considering each customer has their frequency for booking, we create RFM variables and then define a new variable called RT-Ratio(divide recency by frequency). Finally, we use the data of old customers with RFM and other multiple features to build (1) Multiple Linear Regression to predict RT-Ratio of new customers and (2) GLM model to predict the probability of new customers being alive.
+In this project, we collaborate with an online B&B booking platform, to work together on solving their business problem using various statistical analysis methods. One challenge is customer retention, they want to find a better segmentation method for making more effective marketing communication
 
-![summary_viz](tmp/Summary_viz.png)
+## Goal
+- Business Goal: Minimize and Optimize marketing budgets by making more effective marketing communcation.
+- Data Mining Goal: Find a better segmentation method by predicting the purchase frequencyand the probability of customers being alive.
+
+## Data
+Transaction Data: 201, 694 obs./ 146, 257 unique customer
+- The booking transaction is during 2018-01-01~2019-11-09.
+- Include 36 variables such as the number of guests, number of nights, number of rooms, etc.
+
+## Data Preprocessing
+1. Convert one row per order id to one row per user id
+2. Derive RFM variables
+3. Derive Categorical variables
+- Aggregate numerical data by percentage
+- Convert probability to categorical levels
+- Check the levels of each categorical variables using boxplots
+
 
 - [EDA and Data Preprocessing](https://rpubs.com/tzu0218/722518)
 - [Feature Selection and Modeling](https://rpubs.com/tzu0218/723070)
